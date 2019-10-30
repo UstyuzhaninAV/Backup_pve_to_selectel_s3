@@ -7,7 +7,7 @@ S3_USERNAME='****'
 S3_PASSWORD='****'
 S3_BUCKET='Backup/pve'
 DATE="$(date +%F)"
-ADMINMAIL="admin@exbico.ru"
+ADMINMAIL="****"
 MAILSUBJ="Daily pve backup report at ${DATE}"
 LOGFILE=/root/backup/backup-${DATE}
 ((
